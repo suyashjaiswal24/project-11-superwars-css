@@ -1,4 +1,30 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+
+
+h1{
+  text-align: center;
+  font-size: 50px;
 }
+
+.container{
+  margin-left: 15%;
+  width: 45%;
+  display: grid;
+  height: 50px;
+  grid-template-columns:170px 170px 300px 170px 170px;
+  grid-gap: 20px;
+}
+.child{
+  font-size: 20px;
+  text-align: center;
+  box-shadow:5px 5px 5px 5px  grey;/*for border*/
+  border-radius: 15px;
+}
+
+.numbers{
+  margin-top: -2px;
+  font-size: 40px;/* for the scores to be bigger*/
+}
+.gap{
+  grid-column-gap:420px;
+}
+
